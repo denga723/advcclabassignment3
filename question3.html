@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz - Question 3</title>
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('page4-background.jpg'); /* Replace 'page2-background.jpg' with the path to your image file for Page 2 */
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    
+
+    /* Style for white text color */
+    h1, label {
+      color: rgb(0, 0, 0);
+    }
+  </style>
+
+
+</head>
+<body>
+  <div class="container">
+    <h1>Question 3<br>What does DSLR stand for?</h1>
+    <form id="question3Form">
+      <label>
+        <input type="radio" name="answer" value="A"> A.Digital Single Lens Reflex
+      </label><br>
+      <label>
+        <input type="radio" name="answer" value="B"> B.Digital Zoom Lens Ratio
+      </label><br>
+      <label>
+        <input type="radio" name="answer" value="C"> C.Dual Shutter Light Rendering
+      </label><br>
+      <label>
+        <input type="radio" name="answer" value="D"> D.Dynamic Sensor Lens Recorder
+      </label><br>
+      <button type="button" onclick="checkAnswer('A')">Submit</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
